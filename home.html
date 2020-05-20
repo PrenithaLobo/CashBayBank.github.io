@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <title>CashBay</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="Modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <p>CashBay<img src="images/logo.jpg" alt=""></p> 
+        </div>
+        <table id="headericonstable">
+            <tr>
+                <td><a href="" target="blank"><i class="fa fa-comments"></i>Contact Us</a></td>
+                <td><a href="" target="blank"><i class="fa fa-map-marker"></i>Locations</a></td>
+                <td><button id="signinbutton" onclick="modal()"><i class="fa fa-user"></i>Sign In</button></td>
+                <td><a href="" target="blank"><i class="fa fa-search"></i>Search</a></td>
+    
+            </tr>
+        </table>
+    </header>
+
+    <nav>
+    <ul>
+        <li><a href="home.html" target="self">Home</a></li>
+        <li><a href="">About Us</a>
+            <ul style="margin-top: 40px;">
+                <li><a href=""><p>Mission</p></a></li>
+                <li><a href=""><p>Vision</p></a></li>
+                <li><a href=""><p>Careers</p></a></li>
+                <li><a href=""><p>Contact</p></a></li>
+            </ul>
+        </li>
+        <li><a href="#service">Services</a>
+                <ul style="margin-top: 40px;">
+                    <li><a href=""><p>Internet Banking</p></a></li>
+                    <li><a href=""><p>Online Banking</p></a></li>
+                    <li><a href=""><p>Online Deposit</p></a></li>
+                </ul>
+        </li>
+        <li><a href="#business">Features</a></li>
+        <li><a href="#newss">News</a></li>
+    </ul>
+</nav>
+
+
+
+  <div id="slider">
+    <div id="slidertext">
+        <p>Connecting all your <br>Banking needs</p>
+        <p id="secondline">Making it easy for you</p>
+        <button id="sliderbutton">Find out more</button>
+    </div>
+      <figure>
+            <img src="images/work.jpg" alt="">
+            <img src="images/work1.webp" alt="">
+            <img src="images/dream.jpg" alt="">
+            <img src="images/mom.webp" alt="">
+            <img src="images/work.jpg" alt="">
+      </figure>
+  </div>
+
+  <div id="bg-modal">
+    <div id="modal-content">
+        <img id="userimg"src="images/user1.png" alt="">
+        <button id="close" onclick="display()">x</button>
+        <form onsubmit="return valuser()" action="AccountDetails.html">
+            <input type="text" id="user" placeholder="User Name:user" autocomplete="off">
+            <input type="password" id="pass" placeholder="Password:12345" autocomplete="off">
+            <span id="err"></span><br><br>
+            <button id="signinsubmit">Submit</button>
+        </form>
+    </div>
+</div>
+<p id="ptag">Products and Services</p>
+
+
+<div id="service">
+<div class="container">
+
+<div class="box">
+<div class="icon"><i class="fa fa-bank"></i></div>
+<div class="content">
+    <h3>Online Business</h3>
+    <p>
+        Explore the power of simpler and smarter banking. Bank online with over 250 services
+    </p><br>
+    <a href="">Apply Online</a>
+</div>
+</div>
+
+<div class="box">
+    <div class="icon"><i class="fa fa-briefcase"></i></div>
+    <div class="content">
+        <h3>Business Plan</h3>
+        <p>
+            Explore the power of simpler and smarter banking. Bank online with over 250 services
+        </p><br>
+        <a href="">Take the first step</a>
+    </div>
+    </div>
+
+    <div class="box">
+        <div class="icon"><i class="fa fa-mobile"></i></div>
+        <div class="content">
+            <h3>Mobile Bank</h3>
+            <p>
+                Explore the power of simpler and smarter banking. Bank online with over 250 services
+            </p><br>
+            <a href="">Find out more</a>
+        </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fa fa-credit-card"></i></div>
+            <div class="content">
+                <h3>Online Deposit</h3>
+                <p> 
+                    Explore the power of simpler and smarter banking. Bank online with over 250 services
+                </p><br>
+                <a href="">Learn More</a>
+            </div>
+            </div>
+
+</div>
+</div>
+<p id="ptag">Business Banking</p>
+<div align="center">
+    <table id="business">
+        <tr>
+            <td><img src="images/business.jpg" alt=""></td>
+            <td><p id="data">Transforming the way you pay<br>Explore new ways to pay</p>
+            <p id="indata">We offer an array of products that make it possible to pay anywhere, on any device. We’re bringing solutions to life to change the way you pay – through our innovative digital wallet service</p>
+            <button id="sliderbutton">Learn More</button></td>
+        
+        </tr>
+        <tr>
+            
+        </tr>
+    </table>
+
+</div><br><br>
+
+<table id="coffee" align="center">
+    <tr>
+        <td><img src="images/coffee.jpg" alt=""></td>
+        <td><p id="data1">Making internet a brand new experience</p>
+        <p id="indata1">Online banking can save you a lot of time and effort, you can undertake most transactions from the comforts of your home. However, it is crucial to use internet banking safely</p>
+        <button id="sliderbutton">Learn More</button></td>
+    
+    </tr>
+    <tr>
+        
+    </tr>
+</table><br><br>
+
+<p id="ptag">News and Latest Updates</p>
+<table id="newss" align="center">
+    <tr>
+        <td><img src="images/credit.jpg" alt=""></td>
+        <td><img src="images/laptop.jpg" alt=""></td>
+        <td><img src="images/watch.jpg" alt=""></td>
+        <td><img src="images/work.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td><p>Save yourself from Financial fraud</p></td>
+        <td><p>Personal Financial advice service</p></td>
+        <td><p>Helps you in Savings</p></td>
+        <td><p>Here's how to save money</p></td>
+    </tr>
+
+</table><br>
+<span id="topbtn"><a  href="#top"><img src="images/top1.png" alt=""></a></span><br><br><br>
+<footer>
+    <p><i class="fa fa-facebook"></i><i class="fa fa-instagram"></i><i class="fa fa-twitter"></i><i class="fa fa-pinterest"></i><br>CashBay&copy;2020/ All Rights Reserved</p>
+</footer>
+
+
+</body>
+<script src="Modal.js"></script>
+</html>

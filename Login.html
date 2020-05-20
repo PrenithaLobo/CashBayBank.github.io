@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LogIn</title>
+    <link rel="stylesheet" href="Modal.css">
+    <style>
+        body{
+            background:linear-gradient(90deg,#157dec,#6698ff,#82caff,#b7ceec,#6698ff,#157dec)
+        }
+        #modal-content{
+            margin-top: 140px;
+            left:35%
+        }
+    </style>
+</head>
+<body>
+    
+        <div id="modal-content">
+            <img id="userimg"src="images/user1.png" alt="">
+            <!--<button id="close" onclick="display()">x</button>-->
+            <form onsubmit="return valuser()" action="home.html" autocomplete="off">
+                <input type="text" id="user" placeholder="User Name:user">
+                <input type="password" id="pass" placeholder="Password:12345">
+                <span id="err"></span><br><br>
+                <button id="signinsubmit">Submit</button>
+            </form>
+        </div>
+    
+</body>
+<script src="Modal.js"></script>
+</html>

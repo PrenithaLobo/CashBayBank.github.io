@@ -1,0 +1,75 @@
+#bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#modal-content{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding:20px;
+    position: relative;
+}
+input{
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+    height: 30px;
+}
+#close{
+    position: absolute;
+    top:0;
+    right: 14px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    outline: none;
+    color:white;
+    background-color: red;
+    margin-top: 10px;
+    width: 30px;
+    border-radius: 5px;
+    height: 30px;
+}
+#signinbutton{
+    border: none;
+    color: grey;
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+#userimg{
+
+    height: 80px;
+    width:80px;
+}
+#signinsubmit
+{
+    border: none;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    height: 30px;
+    border-radius: 4px;
+}
+#err{
+    color: red;
+    font-size: 12px;
+}
+#user{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+#pass{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CashBay</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section>
+        <img src="images/bank1.jpg" alt="">
+        <!-- <div class="imagecontainer">
+                <div class="color-overlay">
+                <p>CashBay</p>
+                <p id="small">A safe and secure approach</p>
+            </div>
+            
+        </div> -->
+    </section>
+    <aside>
+        <p id="heading"><b>Welcome to CashBay</b></p>
+        <p>Lets get you all set up</p>
+        <p>Already have an account?<a href="Login.html" target="blank">Log In</a></p> 
+        <form name="formname" onsubmit="return validate()" action="home.html">
+           <table>
+               <tr>
+                   <td><input type="text" placeholder="First Name" id="first">
+                        <span id="fnmsg"></span>
+                    </td>
+                   <td><input type="text" placeholder="Last Name" id="ln"></td>
+               </tr>
+               <tr>
+                <td><input type="text" placeholder="Phone Number" id="phone">
+                    <span id="phonemsg"></span>
+                </td>
+                <td><input type="email" placeholder="E-mail" id="email">
+                    <span id="emailmsg"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Password" id="psw">
+                    <span id="pswmsg"></span>
+                </td>
+                <td><input type="password" placeholder="Confirm Password" id="cpsw">
+                    <span id="cpswmsg"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="dob" name="dob" placeholder="Date Of Birth" onfocus="(this.type='date')">
+                    <span id="dobmsg"></span>
+                </td>
+                <td>
+                    Male <input type="radio" name="gender" required>
+                    Female <input type="radio" name="gender" required>
+                    Others <input type="radio" name="gender" required>
+                    <span id="gendermsg"></span>
+                </td>
+            </tr>
+        </table>
+            <tr>
+               <td>
+                    <input type="text" id="capt" readonly>
+                    <input type="text" id="capbutton" value="Refresh" onclick="cap()" readonly>
+                    <input type="text" id="entercapt" placeholder="Enter the Captcha value">
+                    <span id="capmsg"></span>
+                </td>
+            </tr><br><br>
+           
+            <center><input type="submit" value="Sign Up" id="signbutton"></center>
+        </form><br>
+        <div align="center"><button  class="social"><a href="https://www.facebook.com/" target="blank"><img src="images/fb.png" alt=""></a></button>
+            <button class="social"><a href="https://www.instagram.com/accounts/login/?hl=en" target="blank"><img src="images/insta.jpeg" alt=""></a></button>
+            <button class="social"><a href="https://twitter.com/login" target="blank"><img src="images/twitter.png" alt=""></a></button>
+            <button class="social"><a href="https://in.pinterest.com/login/" target="blank"><img src="images/pin.png" alt=""></a></button></div>
+   
+        </aside>
+    
+</body>
+<script src="SignUp.js"></script>
+</html>

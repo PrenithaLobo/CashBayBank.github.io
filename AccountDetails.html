@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CashBay</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="AccountDetails.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="Signin.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <p>CashBay<img src="images/logo.jpg" alt=""></p>
+        </div>
+        <table id="headericonstable">
+            <tr>
+                <td><a href="" target="blank"><i class="fa fa-comments"></i>Contact Us</a></td>
+                <td><a href="" target="blank"><i class="fa fa-map-marker"></i>Locations</a></td>
+                <!--<td><button id="signinbutton" onclick="modal()"><i class="fa fa-user"></i>Sign In</button></td>-->
+                <td><a href="" target="blank"><i class="fa fa-search"></i>Search</a></td>
+            </tr>
+        </table>
+    </header>  
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="">About Us</a>
+                <ul style="margin-top: 40px;">
+                    <li><a href=""><p>Mission</p></a></li>
+                    <li><a href=""><p>Vision</p></a></li>
+                    <li><a href=""><p>Careers</p></a></li>
+                    <li><a href=""><p>Contact</p></a></li>
+                </ul>
+            </li>
+            <li><a href="">Services</a>
+                    <ul style="margin-top: 40px;">
+                        <li><a href=""><p>Internet Banking</p></a></li>
+                        <li><a href=""><p>Online Banking</p></a></li>
+                        <li><a href=""><p>Online Deposit</p></a></li>
+                    </ul>
+            </li>
+            <li><a href="">Features</a></li>
+            <li><a href="">News</a></li>
+        </ul>
+    </nav>
+    
+    <section id="sidebar">
+    <center><img src="images/user1.jpeg" id="user" alt=""></center>
+    <p>Hello User</p>
+    </section>
+    <div id="background">
+    <aside id="asidebar">
+        <p id="accdetails">Account Details</p>
+        <center><input type="text" id="cb" value="0" readonly><span id="err"></span></center>
+
+        <table id="disptable" align="center">
+            <tr>
+                <td>
+                    <select name="" id="drop">
+                        <option value="">Select</option>
+                        <option value="Withdraw">Withdraw</option>
+                        <option value="Deposit">Deposit</option>
+                    </select>
+                </td>
+                <td><input type="text" id="amt" placeholder="Amount"></td>
+                <td><input type="text" id="desc" placeholder="Description"></td>
+                <td>
+                    <button id="confirm" onclick="onconfirm()"><img src="images/check.png" alt=""></button>
+                </td>
+                <td>
+                    <button id="reset" onclick="reset()">Reset</button>
+                </td>
+            </tr>
+
+        </table>
+    </aside>
+    <div id="tablediv">
+        <p id="accdetails">Transaction History</p>
+        <div id="lowerdiv">
+            <table border="1" id="table1">
+                <tr>
+                    <td>Amount</td>
+                    <td>Description</td>
+                </tr>
+            
+            </table><br><br><br><br>
+            <table border="1" id="table2">
+                <tr>
+                    <td>Amount</td>
+                    <td>Description</td>
+                </tr>
+            
+            </table>
+        </div>
+    </div>
+    <div><br><br> 
+
+</body>
+
+
+<script src="AccountDetails.js"></script>
+</html>

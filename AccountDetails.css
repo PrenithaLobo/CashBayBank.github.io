@@ -1,0 +1,127 @@
+body{
+    background-image: url(images/plan.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+header{
+    background-color: white;
+}
+#background{
+    background-color:#dcdcdc;
+    float: right;
+    width: 1000px;
+    height: 530px;
+    margin-top: -240px;
+    margin-right: 60px;
+    position: relative;
+}
+#sidebar{
+margin-top: 30px;
+width: 250px;
+height: 230px;
+background-color:#dcdcdc;
+z-index: 1;
+}
+#user{
+    width: 80px;
+    height: 80px;
+    padding-top: 30px;
+}
+#sidebar p{
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+}
+#asidebar{
+    float: right;
+    background-color: white;
+    width: 800px;
+    position: absolute;
+    height: 180px;
+    background-color:white;
+    margin: 30px 100px;
+}
+#tablediv{
+    float: right;
+    background-color: white;
+    width: 800px;
+    height: 270px;
+    z-index: 1;
+    margin-right: 100px;
+    margin-top: 230px;
+}
+#cb{
+    height: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0 , 0 , 0.1);
+    outline: none;
+    text-align: center;
+}
+#accdetails{
+    color: grey;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#disptable{
+    margin-top: 20px;
+}
+#disptable td{
+    padding-left: 20px;
+}
+#drop{
+    height: 30px;
+    width: 90px;
+}
+#amt,#desc{
+    height: 25px;
+}
+#confirm{
+    border: none;
+    background-color: white;
+    outline: none;
+}
+#confirm img{
+    height: 30px;
+    width: 30px;
+}
+#reset{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 60px;
+    background-color: #ffd300;
+    border-radius: 4px;
+}
+#lowerdiv{
+    display: flex;
+}
+#table1,#table2{
+    margin-left: 50px;
+    margin-right: 50px;
+    width:100%;
+    border-collapse:collapse;
+    text-align:center;
+    border: none;
+    font-size:12px;
+}
+#table1 tr:nth-child(even){
+    background-color: white;
+}
+#table1 tr:nth-child(odd){
+ background-color: #38ACEC;
+}
+#table2 tr:nth-child(even){
+    background-color: white;
+}
+#table2 tr:nth-child(odd){
+ background-color: #38ACEC;
+}
+#table1 td{
+    height: 25px;
+}
+#table2 td{
+    height: 25px;
+}
+
+
+
